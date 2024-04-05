@@ -16,8 +16,4 @@ Screenshot 11: Questa stringa esegue un attacco di Cross-Site Scripting (XSS) in
                Lo script <script>alert(document.cookie)</script> è progettato per mostrare una finestra di avviso nel browser dell'utente contenente il valore dei cookie del sito web corrente.
 Screenshot 12: Questa stringa esegue un'attacco di SQL injection in ambiente security level Medium per recuperare le informazioni sugli utenti e le relative password dalla tabella users di un database. 
                L'obiettivo di questa query è quello di combinare i risultati della condizione 1 = 1 (che è sempre vera) con i risultati della selezione delle colonne user e password dalla tabella users.
-Screenshot 1:
-Screenshot 1:
-Screenshot 1:
-Screenshot 1:
-Screenshot 1:
+
